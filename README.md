@@ -1,12 +1,12 @@
 Slide Up Pane
 ===========
 
-##Introduction
+## Introduction
 This is a UI component that closely simulates the bottom UI component of the current Google Maps application, except bouncier.
 It allows a panel to be placed at the bottom of the screen that a user can pull up over the view above it. Intermediate
 stops can also be added so that it has "sticky" points along the path.  
 
-##Installation
+## Installation
 Make sure maven central is in your repository list then simply include the dependency.
 ```
 dependencies {
@@ -15,7 +15,7 @@ dependencies {
 
 ```
 
-##Usage
+## Usage
 SlideUpPane can be added to any container.  It will slide over any other components placed in that container.  
 
 For example:
@@ -63,7 +63,7 @@ Pickled single-origin coffee mumblecore yr eiusmod four loko, pour-over tote bag
 
 The SlideUpPane extends a LinearLayout with a vertical orientation, so any components added to it will follow that convention.
 
-##Demo
+## Demo
 The video demos the pane with a 50% stop added
 http://www.youtube.com/watch?v=FU4dkbuxNQ0
 
